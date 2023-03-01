@@ -1,0 +1,72 @@
+body {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 120%;
+    margin: 20px 30px 30px 30px;
+    background-color: rgb(208, 208, 208);
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .text {
+    margin-left: 110px;
+  }
+  
+  .header {
+    font-size: 100%;
+    letter-spacing: 1px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(208, 208, 208);
+    padding: 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    background-color: transparent;
+    transition: background-color 1s ease;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  img {
+    float: left;
+    margin-right: 10px;
+    width: 40%;
+  }
